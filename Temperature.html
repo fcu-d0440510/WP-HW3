@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Home Work 3</title>
+		<script type="text/javascript">
+			var Celsius;
+			
+			Celsius=window.prompt("叫块尼ん放");
+			document.writeln("<h2>尼ん放"+Celsius+"C</h2>");
+			document.writeln("<h2>地ん放"+conversion(Celsius)+"F</h2>");
+			
+			function conversion(C){
+				var num;
+				var F;
+				num=parseFloat(C);
+				F=parseFloat((num+40)*1.8-40).toFixed(2);
+				return F;
+			}
+		</script>
+	</head>
+</html>
